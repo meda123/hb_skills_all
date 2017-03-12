@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Application Form</title>
+</head>
+<body>
+
+    <h1> Welcome to Balloonicorn United </h1>
+
+    <div id="large-box">
+
+    <p> We are so pleased you are looking to join out team!
+        We are the leading providers of unicorn stuffed animals
+        in the country. To be considered for a position, please submit your information to the fields below. 
+        </p>
+    </div>
+    
+    <br>
+    <form action="/application-success" method="POST"> 
+    First Name: <input type="text" name="firstname"> <br>
+    Last Name: <input type="text" name="lastname" id="type_bold"> <br>
+    Salary Requirements: <input type="number" 
+    name="salary requirements"> <br>
+
+    Applying for: 
+    <select name="Position available">
+        <option value="Sofware Engineer">
+        Software Engineer </option> 
+        <option value="QA Engineer">QA Engineer</option> 
+        <option value="Product Manager">Product Manager</option>
+
+    </select> <br>
+    <input id="submit_button" type="submit">
+
+    </form>
+
+</body>
+</html>
